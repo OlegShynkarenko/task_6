@@ -48,63 +48,58 @@
                 href="#">Max Jones</a></li>
           </ul>
         </div>
-        <div class="header__controls">
-          <form class="header__controls-form" action="#">
-            <label>
-              <input class="header__search-field" type="search" placeholder="SEARCH"
-                name="search">
-            </label>
-            <span class="header__notification-item"><img src="images/header/mail.jpg"
-                alt="mail icon"></span>
-            <span class="header__notification-item"><img src="images/header/ring.jpg"
-                alt="ring icon"></span>
-            <img class="header__controls-image" src="images/header/user-photo.jpg"
-              alt="user image">
-            <label>
-              <select class="header__controls-users-list">
-                <option>Hello Lauren</option>
-                <option>Hello Sophia</option>
-                <option>Hello Elena</option>
-              </select>
-            </label>
-          </form>
-        </div>
+        <form class="header__controls-form" action="#">
+          <label>
+            <input class="header__search-field" type="search" placeholder="search"
+              name="search">
+          </label>
+          <span class="header__notification-item-mail"><img src="images/header/mail.jpg"
+              alt="mail icon"></span>
+          <span class="header__notification-item-notice"><img src="images/header/ring.jpg"
+              alt="ring icon"></span>
+          <img class="header__controls-image" src="images/header/user-photo.jpg"
+            alt="user image">
+          <label>
+            <select class="header__controls-users-list">
+              <option>Hello Lauren</option>
+              <option>Hello Sophia</option>
+              <option>Hello Elena</option>
+            </select>
+          </label>
+        </form>
       </div>
     </header>
     <section class="user-profile">
       <div class="user-profile__container container">
-        <div class="user-profile__item">
-          <img class="user-profile__user-photo" src="#" alt="user photo">
-        </div>
-        <div class="user-profile__item">
+        <img class="user-profile__user-photo" src="images/user-profile/user_photo.png"
+          alt="user photo">
+        <div class="user-profile__main-info">
           <div class="user-profile__user-description">
             <h3 class="user-profile__user-name">Max Jones <span class="user-profile__gold-status">gold</span></h3>
             <span class="user-profile__activity">Sales & Marketing</span>
           </div>
           <div class="user-profile__user-social">
             <h4 class="user-profile__invitation">Invite to social</h4>
-            <ul class="user-profile__social-list">
-              <li class="user-profile__social-item"><a class="user-profile__social-link link"
-                  href="#"><img src="#" alt="linkedin icon"></a></li>
-              <li class="user-profile__social-item"><a class="user-profile__social-link link"
-                  href="#"><img src="#" alt="facebook icon"></a></li>
-              <li class="user-profile__social-item"><a class="user-profile__social-link link"
-                  href="#"><img src="#" alt="twitter icon"></a></li>
-            </ul>
+            <a class="user-profile__social-link link" href="#"><img src="images/user-profile/linkedin_icon.png"
+                alt="linkedin icon"></a>
+            <a class="user-profile__social-link-facebook link" href="#"><img
+                src="images/user-profile/facebook_icon.png" alt="facebook icon"></a>
+            <a class="user-profile__social-link link" href="#"><img src="images/user-profile/twitter_icon.png"
+                alt="twitter icon"></a>
           </div>
         </div>
-        <div class="user-profile__item">
+        <div class="user-profile__item-contact">
           <ul class="user-profile__contacts">
-            <li>
+            <li class="user-profile__contacts-item list">
               <span class="user-profile__contacts-category">phone</span>
               <span class="user-profile__contacts-link link" href="#">(+31)140
                 175 468</span>
             </li>
-            <li>
+            <li class="user-profile__contacts-item list">
               <span class="user-profile__contacts-category">email</span>
               <span class="user-profile__contacts-link link" href="#">maxjones@gmail.com</span>
             </li>
-            <li>
+            <li class="user-profile__contacts-item list">
               <span class="user-profile__contacts-category">address</span>
               <span class="user-profile__contacts-link link" href="#">(+31)140
                 175 468</span>
@@ -112,20 +107,21 @@
           </ul>
           <button class="user-profile__button">create quote</button>
         </div>
-        <div class="user-profile__details">
-          <ul class="user-profile__details-list">
-            <li class="user-profile__details-item"><a class="user-profile__details-link link user-profile__details-link_current"
-                href="#">overview</a></li>
-            <li class="user-profile__details-item"><a class="user-profile__details-link link"
-                href="#">orders</a></li>
-            <li class="user-profile__details-item"><a class="user-profile__details-link link"
-                href="#">payments</a></li>
-            <li class="user-profile__details-item"><a class="user-profile__details-link link"
-                href="#">interactions</a></li>
-            <li class="user-profile__details-item"><a class="user-profile__details-link link"
-                href="#">customer feedback</a></li>
-          </ul>
-        </div>
+      </div>
+
+      <div class="user-profile__details container">
+        <ul class="user-profile__details-list">
+          <li class="user-profile__details-item list"><a class="user-profile__details-link link user-profile__details-link_current"
+              href="#">overview</a></li>
+          <li class="user-profile__details-item list"><a class="user-profile__details-link link"
+              href="#">orders</a></li>
+          <li class="user-profile__details-item list"><a class="user-profile__details-link link"
+              href="#">payments</a></li>
+          <li class="user-profile__details-item list"><a class="user-profile__details-link link"
+              href="#">interactions</a></li>
+          <li class="user-profile__details-item list"><a class="user-profile__details-link link"
+              href="#">customer feedback</a></li>
+        </ul>
       </div>
     </section>
     <section class="overview">

@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
   }
 
   &__breadcrumbs-list {
@@ -54,5 +55,23 @@
       font-weight: 400;
       text-transform: uppercase;
     }
+  }
+
+  &__notification-item-mail {
+    margin-left: 2.8rem;
+  }
+
+  &__notification-item-notice {
+    margin: 0 3.3rem 0 1.3rem;
+  }
+
+  &__controls-image {
+    margin-right: 1rem;
+  }
+
+  &__controls-users-list {
+    border: none;
+    font-size: 1.6rem;
+    font-weight: bold;
   }
 }
