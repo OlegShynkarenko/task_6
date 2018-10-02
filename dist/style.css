@@ -1,0 +1,135 @@
+.page {
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.page-content {
+  display: flex;
+}
+
+/*dark-grey*/
+/*purple*/
+/*pink*/
+/*white*/
+/*yellow*/
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.sidebar {
+  width: 19%;
+  background: #303841;
+  padding-top: 4.5rem;
+}
+.sidebar__heading {
+  color: #ffc12d;
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 0.07rem;
+  margin: 0 0 0 2.6rem;
+}
+.sidebar__menu-list {
+  padding: 0;
+}
+.sidebar__list-item {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.071);
+  margin: 0 1.7rem 0 2.8rem;
+  padding: 0.6rem 0 0.6rem 0;
+  width: 88%;
+}
+.sidebar__list-item_active {
+  background: #442a9d;
+  border-left: 0.5rem solid #ffc12d;
+  margin: 0;
+  padding-left: 2.3rem;
+}
+.sidebar__fa-icon {
+  color: #faf3fc;
+  font-size: 2.2rem;
+  line-height: 3rem;
+  margin: 0 1.9rem 0 0;
+}
+.sidebar__link {
+  color: #faf3fc;
+  font-size: 1.7rem;
+  font-weight: 300;
+  line-height: 3rem;
+}
+
+.main-content {
+  width: 81%;
+}
+
+.container {
+  max-width: 128.6rem;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 0.2rem 0 0.2rem;
+}
+
+.header {
+  border-bottom: 3px solid rgba(237, 237, 237, 0.4);
+  padding: 1.5rem 0 1.5rem 0;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__breadcrumbs-list {
+  padding: 0;
+  display: flex;
+}
+.header__breadcrumbs-link {
+  color: #303841;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.header__breadcrumbs-pointer {
+  color: #303841;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0 1.9rem 0 1.9rem;
+}
+.header__breadcrumbs-link_current {
+  color: #442a9d;
+  font-size: 1.6rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.header__controls-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__search-field {
+  width: 28.5rem;
+  height: 3.8rem;
+  border: 1px solid #ededed;
+  border-radius: 0.4rem;
+  padding-left: 2.1rem;
+  font-size: 1.2rem;
+  background: url("/images/header/search.jpg") no-repeat 250px 10px;
+}
+.header__search-field::-webkit-input-placeholder {
+  color: #999;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.header__search-field::-ms-input-placeholder {
+  color: #999;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.header__search-field::placeholder {
+  color: #999;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
