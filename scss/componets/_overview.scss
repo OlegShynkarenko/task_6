@@ -1,8 +1,8 @@
 .overview {
   background: #ededed;
-  padding: 6.2rem 0 3rem 0;
+  padding: 6.2rem 0 5rem 0;
 
-  &__item {
+  &__overall {
     display: flex;
     justify-content: space-between;
   }
@@ -61,7 +61,7 @@
     padding: 2.5rem 0 2.5rem 0;
   }
 
-  &__turnover-progress {
+  &__turnover-amount {
     color: #4f4f4f;
     font-size: 4.4rem;
     font-weight: 700;
@@ -92,7 +92,6 @@
     font-weight: 400;
     text-transform: uppercase;
     color: $color-5;
-    vertical-align: top;
   }
 
   &__orders-total-num {

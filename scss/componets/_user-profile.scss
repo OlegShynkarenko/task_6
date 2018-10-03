@@ -1,4 +1,4 @@
-.user-profile {
+.profile {
   padding: 6rem 0 0 0;
 
   &__container {
@@ -8,27 +8,20 @@
     position: relative;
   }
 
-  &__user-photo {
+  &__photo {
     position: absolute;
     left: 0.5rem;
     top: 0.2rem;
   }
 
-  &__main-info {
+  &__info {
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid #ededed;
     padding-bottom: 1rem;
   }
 
-  &__item-contact {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 2rem;
-  }
-
-  &__user-name {
+  &__name {
     position: relative;
     padding-right: 6.5rem;
     font-size: 2rem;
@@ -38,7 +31,7 @@
     margin: 0 0 1.6rem 0;
   }
 
-  &__gold-status {
+  &__status {
     position: absolute;
     top: 0.2rem;
     right: 0;
@@ -57,18 +50,26 @@
   }
 
   &__invitation {
+    display: block;
     color: #999;
     font-size: 1.2rem;
     text-transform: uppercase;
+    margin: 0.5rem 0 1.4rem 0;
   }
 
-  &__social-link-facebook {
+  &__link-facebook {
     margin: 0 2rem 0 2rem;
   }
 
   &__contacts {
     display: flex;
-    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+  }
+
+  &__contacts-list {
+    display: flex;
   }
 
   &__contacts-item {
@@ -84,7 +85,7 @@
     margin-bottom: 1.3rem;
   }
 
-  &__contacts-link {
+  &__contacts-description {
     position: relative;
     font-size: 1.5rem;
     font-weight: 700;
@@ -92,7 +93,7 @@
     cursor: pointer;
   }
 
-  &__contacts-link:hover::after {
+  &__contacts-description:hover::after {
     content: "";
     position: absolute;
     left: 0;
@@ -109,33 +110,11 @@
     border-radius: 0.4rem;
     font-size: 1.4rem;
     font-weight: 700;
+    text-transform: uppercase;
     color: $color-5;
-    text-transform: uppercase;
   }
 
-  &__details {
-    margin-top: 9rem;
-  }
-
-  &__details-list {
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    margin-bottom: 2.2rem;
-  }
-
-  &__details-link {
-    font-size: 1.4rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: $color-1;
-    padding: 0 1.8rem 2rem 1.8rem;
-    margin-right: 1.8rem;
-  }
-
-  &__details-link:hover {
-    border-bottom: 0.6rem solid $color-2;
-    border-radius: 2px;
-    padding-bottom: 1.5rem;
+  &__button:hover {
+    opacity: 0.7;
   }
 }

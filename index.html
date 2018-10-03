@@ -17,50 +17,53 @@
 
 <body class="page-content">
   <aside class="sidebar">
-    <div class="sidebar__container">
-      <h2 class="sidebar__heading">CreativeCRM</h2>
-      <nav class="sidebar__menu">
-        <ul class="sidebar__menu-list">
-          <li class="sidebar__list-item list"><i class="sidebar__fa-icon fas fa-tachometer-alt"></i><a
-              class="sidebar__link link" href="#">Dashboard</a></li>
-          <li class="sidebar__list-item list"><i class="sidebar__fa-icon fas fa-chart-pie"></i><a
-              class="sidebar__link link" href="#">Reports</a></li>
-          <li class="sidebar__list-item list sidebar__list-item_active"><i
-              class="sidebar__fa-icon fas fa-briefcase"></i><a class="sidebar__link link"
-              href="#">Customers</a></li>
-          <li class="sidebar__list-item list"><i class="sidebar__fa-icon fas fa-calendar-alt"></i><a
-              class="sidebar__link link" href="#">Calendar</a></li>
-          <li class="sidebar__list-item list"><i class="sidebar__fa-icon fas fa-server"></i><a
-              class="sidebar__link link" href="#">Tasks</a></li>
-        </ul>
-      </nav>
-    </div>
+    <h2 class="sidebar__heading">CreativeCRM</h2>
+    <nav class="sidebar__menu">
+      <ul class="sidebar__menu-list">
+        <li class="sidebar__list-item list">
+          <i class="sidebar__fa-icon fas fa-tachometer-alt"></i>
+          <a class="sidebar__link link" href="#">Dashboard</a>
+        </li>
+        <li class="sidebar__list-item list">
+          <i class="sidebar__fa-icon fas fa-chart-pie"></i>
+          <a class="sidebar__link link" href="#">Reports</a>
+        </li>
+        <li class="sidebar__list-item list sidebar__list-item_active">
+          <i class="sidebar__fa-icon fas fa-briefcase"></i>
+          <a class="sidebar__link link" href="#">Customers</a>
+        </li>
+        <li class="sidebar__list-item list">
+          <i class="sidebar__fa-icon fas fa-calendar-alt"></i>
+          <a class="sidebar__link link" href="#">Calendar</a>
+        </li>
+        <li class="sidebar__list-item list">
+          <i class="sidebar__fa-icon fas fa-server"></i>
+          <a class="sidebar__link link" href="#">Tasks</a>
+        </li>
+      </ul>
+    </nav>
   </aside>
   <main class="main-content">
-    <header class="header">
-      <div class="header__container container">
-        <div class="header__breadcrumbs">
-          <ul class="header__breadcrumbs-list">
-            <li class="header__breadcrumbs-item list"><a class="header__breadcrumbs-link link"
-                href="#">Customers</a></li>
-            <li class="header__breadcrumbs-item list"><span class="header__breadcrumbs-pointer">></span></li>
-            <li class="header__breadcrumbs-item list"><a class="header__breadcrumbs-link link header__breadcrumbs-link_current"
+    <section class="controls">
+      <div class="controls__container container">
+        <div class="controls__breadcrumbs">
+          <ul class="controls__list">
+            <li class="controls__item list"><a class="controls__link link" href="#">Customers</a></li>
+            <li class="controls__item list"><span class="controls__pointer">></span></li>
+            <li class="controls__item list"><a class="controls__link link controls__link_current"
                 href="#">Max Jones</a></li>
           </ul>
         </div>
-        <form class="header__controls-form" action="#">
+        <form class="controls__form" action="#">
           <label>
-            <input class="header__search-field" type="search" placeholder="search"
+            <input class="controls__search-field" type="search" placeholder="search"
               name="search">
           </label>
-          <span class="header__notification-item-mail"><img src="images/header/mail.jpg"
-              alt="mail icon"></span>
-          <span class="header__notification-item-notice"><img src="images/header/ring.jpg"
-              alt="ring icon"></span>
-          <img class="header__controls-image" src="images/header/user-photo.jpg"
-            alt="user image">
+          <span class="controls__mail"><img src="images/header/mail.jpg" alt="mail icon"></span>
+          <span class="controls__notice"><img src="images/header/ring.jpg" alt="ring icon"></span>
+          <img class="controls__image" src="images/header/user-photo.jpg" alt="user image">
           <label>
-            <select class="header__controls-users-list">
+            <select class="controls__users">
               <option>Hello Lauren</option>
               <option>Hello Sophia</option>
               <option>Hello Elena</option>
@@ -68,65 +71,61 @@
           </label>
         </form>
       </div>
-    </header>
-    <section class="user-profile">
-      <div class="user-profile__container container">
-        <img class="user-profile__user-photo" src="images/user-profile/user_photo.png"
+    </section>
+    <section class="profile">
+      <div class="profile__container container">
+        <img class="profile__photo" src="images/user-profile/user_photo.png"
           alt="user photo">
-        <div class="user-profile__main-info">
-          <div class="user-profile__user-description">
-            <h3 class="user-profile__user-name">Max Jones <span class="user-profile__gold-status">gold</span></h3>
-            <span class="user-profile__activity">Sales & Marketing</span>
+        <div class="profile__info">
+          <div class="profile__description">
+            <p class="profile__name">Max Jones <span class="profile__status">gold</span></p>
+            <span class="profile__activity">Sales & Marketing</span>
           </div>
-          <div class="user-profile__user-social">
-            <h4 class="user-profile__invitation">Invite to social</h4>
-            <a class="user-profile__social-link link" href="#"><img src="images/user-profile/linkedin_icon.png"
+          <div class="profile__social">
+            <b class="profile__invitation">Invite to social</b>
+            <a class="profile__link link" href="#"><img src="images/user-profile/linkedin_icon.png"
                 alt="linkedin icon"></a>
-            <a class="user-profile__social-link-facebook link" href="#"><img
-                src="images/user-profile/facebook_icon.png" alt="facebook icon"></a>
-            <a class="user-profile__social-link link" href="#"><img src="images/user-profile/twitter_icon.png"
+            <a class="profile__link-facebook link" href="#"><img src="images/user-profile/facebook_icon.png"
+                alt="facebook icon"></a>
+            <a class="profile__link link" href="#"><img src="images/user-profile/twitter_icon.png"
                 alt="twitter icon"></a>
           </div>
         </div>
-        <div class="user-profile__item-contact">
-          <ul class="user-profile__contacts">
-            <li class="user-profile__contacts-item list">
-              <span class="user-profile__contacts-category">phone</span>
-              <span class="user-profile__contacts-link link" href="#">(+31)140
+        <div class="profile__contacts">
+          <ul class="profile__contacts-list">
+            <li class="profile__contacts-item list">
+              <span class="profile__contacts-category">phone</span>
+              <span class="profile__contacts-description">(+31)140
                 175 468</span>
             </li>
-            <li class="user-profile__contacts-item list">
-              <span class="user-profile__contacts-category">email</span>
-              <span class="user-profile__contacts-link link" href="#">maxjones@gmail.com</span>
+            <li class="profile__contacts-item list">
+              <span class="profile__contacts-category">email</span>
+              <span class="profile__contacts-description">maxjones@gmail.com</span>
             </li>
-            <li class="user-profile__contacts-item list">
-              <span class="user-profile__contacts-category">address</span>
-              <span class="user-profile__contacts-link link" href="#">(+31)140
-                175 468</span>
+            <li class="profile__contacts-item list">
+              <span class="profile__contacts-category">address</span>
+              <span class="profile__contacts-description">Binnenweg 50,
+                Rotterdam</span>
             </li>
           </ul>
-          <button class="user-profile__button">create quote</button>
+          <button class="profile__button">create quote</button>
         </div>
       </div>
-
-      <div class="user-profile__details container">
-        <ul class="user-profile__details-list">
-          <li class="user-profile__details-item list"><a class="user-profile__details-link link user-profile__details-link_current"
-              href="#">overview</a></li>
-          <li class="user-profile__details-item list"><a class="user-profile__details-link link"
-              href="#">orders</a></li>
-          <li class="user-profile__details-item list"><a class="user-profile__details-link link"
-              href="#">payments</a></li>
-          <li class="user-profile__details-item list"><a class="user-profile__details-link link"
-              href="#">interactions</a></li>
-          <li class="user-profile__details-item list"><a class="user-profile__details-link link"
-              href="#">customer feedback</a></li>
-        </ul>
-      </div>
+    </section>
+    <section class="menu container">
+      <ul class="menu__list">
+        <li class="menu__item list"><a class="menu__link link menu__link_current"
+            href="#">overview</a></li>
+        <li class="menu__item list"><a class="menu__link link" href="#">orders</a></li>
+        <li class="menu__item list"><a class="menu__link link" href="#">payments</a></li>
+        <li class="menu__item list"><a class="menu__link link" href="#">interactions</a></li>
+        <li class="menu__item list"><a class="menu__link link" href="#">customer
+            feedback</a></li>
+      </ul>
     </section>
     <section class="overview">
       <div class="overview__container container">
-        <div class="overview__item">
+        <div class="overview__overall">
           <div class="overview__happiness">
             <h3 class="overview__heading">Customer happiness</h3>
             <img class="overview__happiness-image" src="images/overview/smile.jpg"
@@ -139,7 +138,7 @@
           </div>
           <div class="overview__turnover">
             <h3 class="overview__heading">Total Turnover</h3>
-            <b class="overview__turnover-progress">€3,297</b>
+            <b class="overview__turnover-amount">€3,297</b>
           </div>
           <div class="overview__orders">
             <div class="overview__orders-total">
@@ -181,7 +180,7 @@
       <div class="activity__container container">
         <h2 class="activity__heading">Activity</h2>
         <div class="activity__grid-container">
-          <div class="activity__item activity-block">
+          <div class="activity__item">
             <img class="activity__image" src="images/activity/user-photo.png"
               alt="user photo">
             <span class="activity__task-description">Added new task <a class="activity__link link"
@@ -189,7 +188,7 @@
               Lauren</span>
             <span class="activity__date-description">Today at 4:24 PM</span>
           </div>
-          <div class="activity__item activity-block">
+          <div class="activity__item">
             <img class="activity__image" src="images/activity/user-photo.png"
               alt="user photo">
             <span class="activity__task-description">Added new upsell
@@ -197,14 +196,14 @@
                 Customer Support Interactions</a></span>
             <span class="activity__date-description">July 21th</span>
           </div>
-          <div class="activity__item activity-block">
+          <div class="activity__item">
             <img class="activity__image" src="images/activity/user-photo.png"
               alt="user photo">
             <span class="activity__task-description">Edited <a class="activity__link link"
                 href="#">‘Order #54789B’</a></span>
             <span class="activity__date-description">July 21th</span>
           </div>
-          <div class="activity__item activity-block">
+          <div class="activity__item">
             <img class="activity__image" src="images/activity/user-photo.png"
               alt="user photo">
             <span class="activity__task-description">Changed <a class="activity__link link"
