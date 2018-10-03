@@ -278,4 +278,165 @@
 
 .overview {
   background: #ededed;
+  padding: 6.2rem 0 3rem 0;
+}
+.overview__item {
+  display: flex;
+  justify-content: space-between;
+}
+.overview__happiness,
+.overview__turnover,
+.overview__orders {
+  width: 32%;
+  text-align: center;
+  border-radius: 6px;
+}
+.overview__happiness {
+  background: #fff;
+  padding: 2.5rem 0 2.5rem 0;
+}
+.overview__heading {
+  font-size: 1.7rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #4f4f4f;
+  margin-top: 0;
+}
+.overview__happiness-text {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #4f4f4f;
+}
+.overview__happiness-progress-bar {
+  display: inline-block;
+  margin: 0 auto;
+  width: 73%;
+  background: #ededed;
+  border-radius: 5px;
+}
+.overview__happiness-progress-line {
+  width: 90%;
+  height: 1rem;
+  background: #ffc12d;
+  border-radius: 5px;
+}
+.overview__happiness-progress-perc {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #4f4f4f;
+}
+.overview__turnover {
+  align-self: stretch;
+  background: white url("../images/overview/statistic.png") no-repeat bottom;
+  padding: 2.5rem 0 2.5rem 0;
+}
+.overview__turnover-progress {
+  color: #4f4f4f;
+  font-size: 4.4rem;
+  font-weight: 700;
+}
+.overview__orders-total,
+.overview__orders-progress {
+  display: flex;
+  background: #fff;
+  border-radius: 6px;
+}
+.overview__orders-total {
+  margin-bottom: 2rem;
+}
+.overview__orders-image {
+  height: 100%;
+}
+.overview__orders-description {
+  margin: 0 auto;
+  width: 100%;
+}
+.overview__orders-total-heading {
+  font-size: 1.7rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffc12d;
+  vertical-align: top;
+}
+.overview__orders-total-num {
+  font-size: 3.7rem;
+  font-weight: 700;
+  color: #4f4f4f;
+}
+.overview__orders-progress-heading {
+  font-size: 1.7rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #442a9d;
+}
+.overview__current {
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  border-radius: 5px;
+  margin-top: 3rem;
+  padding: 3rem 0 3rem 0;
+}
+.overview__current-state {
+  width: 33%;
+  text-align: center;
+}
+.overview__number {
+  font-size: 3.7rem;
+  font-weight: 700;
+  color: #4f4f4f;
+}
+.overview__current-state_mod {
+  border-left: 2px solid #ededed;
+  border-right: 2px solid #ededed;
+}
+
+.activity {
+  background: #ededed;
+  padding-bottom: 18rem;
+}
+.activity__grid-container {
+  display: grid;
+  grid-template-columns: minmax(73.4rem, 1fr);
+  grid-template-rows: repeat(4, 8rem);
+  grid-gap: 2rem;
+}
+.activity__item {
+  display: grid;
+  grid-template-columns: auto 2fr 1fr;
+  grid-template-rows: 1fr;
+  background: white;
+  padding: 0 4.8rem 0 2.4rem;
+}
+.activity__image,
+.activity__task-description,
+.activity__date-description {
+  align-self: center;
+}
+.activity__task-description {
+  margin-left: 6rem;
+}
+.activity__date-description {
+  justify-self: end;
+}
+.activity__heading {
+  color: #4f4f4f;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding-bottom: 0.7rem;
+  border-bottom: 2px solid #cbcbcb;
+  margin-top: 0;
+}
+.activity__task-description {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #303841;
+}
+.activity__link {
+  color: #442a9d;
+}
+.activity__date-description {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #999;
 }
